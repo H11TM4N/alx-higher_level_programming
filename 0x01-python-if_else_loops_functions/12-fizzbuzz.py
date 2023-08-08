@@ -6,4 +6,4 @@ def fizzbuzz():
         elif i % 3 and i % 5 == 0:
             print("FizzBuzz", end=" ")
         else:
-            print(i, end=" ")
+            print("{}".format(i), end=" ")
