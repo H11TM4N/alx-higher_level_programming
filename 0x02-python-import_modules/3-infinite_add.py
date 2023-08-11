@@ -10,6 +10,7 @@ def add(args):
             print("Invalid argument")
     return result
 
+
 if __name__ == "__main__":
     import sys
 
