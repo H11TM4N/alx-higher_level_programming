@@ -15,4 +15,4 @@ if __name__ == "__main__":
     arg = sys.argv[1:]
 
     res = add(arg)
-    print(res)
+    print("{}".format(res))
