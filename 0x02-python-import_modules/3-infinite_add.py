@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-import sys
 
 def add(args):
     result = 0
@@ -12,6 +11,8 @@ def add(args):
     return result
 
 if __name__ == "__main__":
+    import sys
+
     arg = sys.argv[1:]
 
     res = add(arg)
