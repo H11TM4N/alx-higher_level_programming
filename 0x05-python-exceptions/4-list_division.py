@@ -8,13 +8,10 @@ def list_division(my_list_1, my_list_2, list_length):
                 item1 = my_list_1[i]
                 item2 = my_list_2[i]
 
-                # lets see if items are integers or floats
                 if not (isinstance(item1, (int, float)) and isinstance(item2, (int, float))):
                     print("wrong type")
                     result.append(0)
                     continue
-
-                # lets Check for division by zero
                 if item2 == 0:
                     print("division by 0")
                     result.append(0)
