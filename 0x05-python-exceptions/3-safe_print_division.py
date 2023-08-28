@@ -9,4 +9,4 @@ def safe_print_division(a, b):
     finally:
         if result is not None:
             print("Inside result: {}".format(result))
-    return result  # Return the result of the division or None if there was an error
+    return result
