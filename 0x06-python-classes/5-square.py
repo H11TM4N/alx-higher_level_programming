@@ -31,7 +31,7 @@ class Square:
 
     def area(self):
         """
-            A public instance method.
+            Return the area of a square.
         """
         return self.__size * self.__size
 
