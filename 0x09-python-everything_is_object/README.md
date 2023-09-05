@@ -1,0 +1,1 @@
+Everything is an Object in python. I'll be exploring that in this project
