@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-    This funcion verifies an object class
-"""
+"""This funcion verifies an object class"""
 
 
 def is_kind_of_class(obj, a_class):
