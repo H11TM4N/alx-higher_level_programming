@@ -1,16 +1,11 @@
 #!/usr/bin/python3
-"""This funcion verifies an object class"""
+"""checks if object is an instance of a class
+or an inherited class
+"""
 
 
 def is_kind_of_class(obj, a_class):
+    """returns true if object is an instance of a class
+    or a class that the class in question inherits from
     """
-    Verify if an object is an instance of, or inherited fr--, the specified class.
-
-    Args:
-        obj (object): The object to be checked.
-        a_class (type): The class to check against.
-
-    Returns:
-        bool: True if obj is an instance of a_class or its subclass; otherwise, False.
-    """
-    return isinstance(obj, a_class)
+    return (isinstance(obj, a_class))
