@@ -4,7 +4,7 @@
 
 def write_file(filename="", text=""):
     """
-        This function writes a string to a text file (UTF8) and returns the number -- characters written:
+        This function writes a string to a text file and returns the number -- characters written:
     """
-    with open(filename, encoding='utf-8', mode='w') as my_file:
+    with open(filename, 'w', encoding='utf-8') as my_file:
         return my_file.write(text)
