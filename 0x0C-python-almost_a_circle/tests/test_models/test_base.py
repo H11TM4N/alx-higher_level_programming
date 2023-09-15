@@ -6,7 +6,7 @@ import json
 import inspect
 
 '''
-    test cases for the base module
+    Creating test cases for the base module
 '''
 
 
