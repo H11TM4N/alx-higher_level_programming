@@ -1,9 +1,9 @@
 #!/usr/bin/node
 
-const cString = 'C is fun';
-const pyString = 'Python is cool';
-const jsString = 'JavaScript is amazing';
+const String1 = 'C is fun';
+const String2 = 'Python is cool';
+const String3 = 'JavaScript is amazing';
 
-console.log(cString);
-console.log(pyString);
-console.log(jsString);
+console.log(String1);
+console.log(String2);
+console.log(String3);
